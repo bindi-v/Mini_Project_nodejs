@@ -14,11 +14,12 @@ const generateHtml = (answers) =>
   <div class="container">
     <h1 class="display-4">Hi! My name is ${answers.name}</h1>
     <p class="lead">I am from ${answers.location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
+    <p class="lead">My favorite hobby is to ${answers.hobby}</p>
+    <h3>If Any Questions <span class="badge badge-secondary">Contact Me at ${answers.email}</span></h3>
     <ul class="list-group">
       <li class="list-group-item">My GitHub username is ${answers.github}</li>
       <li class="list-group-item">My contact Email: ${answers.email}</li>
-      <li class="list-group-item">Any Questions! Contact : ${answers.email}</li>
+      
     </ul>
   </div>
 </div>
